@@ -8,12 +8,14 @@ namespace hada_p1
 {
     internal class HadaP1
     {
-        public static double Second2Minutes(double s)
+        public static double Seconds2Minutes(double s)
         {
+            if (s == 0)
+                return 0;
 
-        return s / 60; 
-        
+            return s / 60;
         }
+
     }
 }
 
