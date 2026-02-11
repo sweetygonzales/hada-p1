@@ -14,3 +14,10 @@ P3. What differences do you see between revert and reset?
 -> revert creats a new commit which reverts the changes but the history stays the same
 -> reset moves branch pointer to the last commit. It changes the history
 
+P4. Which differences do you observe between merge and rebase?
+->Merge: Combines branches with a merge commit, keeps full history, shows branching.
+->Rebase: Moves commits onto another branch for a linear history, rewrites commit history.
+->Key difference: Merge preserves history; rebase creates a clean, straight timeline.
+
+
+
