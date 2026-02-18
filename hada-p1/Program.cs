@@ -3,7 +3,7 @@
 namespace hada_p1
 {
     /// <summary>
-    /// Main class of the program that handles user input and calls conversion methods.
+    /// Main program class handling user input and calling conversion methods.
     /// </summary>
     class Program
     {
@@ -16,7 +16,7 @@ namespace hada_p1
             string choice;
             do
             {
-                Console.WriteLine("Enter unit (seconds/minutes):");
+                Console.WriteLine("Enter unit (seconds/minutes/hours):");
                 string unit = Console.ReadLine().Trim().ToLower();
 
                 Console.WriteLine("Enter value:");
@@ -26,6 +26,8 @@ namespace hada_p1
                     Console.WriteLine($"{value} seconds = {HadaP1.Seconds2Minutes(value)} minutes");
                 else if (unit == "minutes")
                     Console.WriteLine($"{value} minutes = {HadaP1.Minutes2Seconds(value)} seconds");
+                else if (unit == "hours")
+                    Console.WriteLine($"{value} hours = {HadaP1.Hours2Minutes(value)} minutes");
                 else
                     Console.WriteLine("Invalid unit");
 
