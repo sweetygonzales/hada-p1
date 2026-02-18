@@ -2,8 +2,15 @@
 
 namespace hada_p1
 {
+    /// <summary>
+    /// Main class of the program that handles user input and calls conversion methods.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Program entry point.
+        /// </summary>
+        /// <param name="args">Command-line arguments (not used)</param>
         static void Main(string[] args)
         {
             string choice;

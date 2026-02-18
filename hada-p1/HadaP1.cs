@@ -4,6 +4,7 @@ namespace hada_p1
 {
     /// <summary>
     /// Class containing methods to convert between seconds and minutes.
+    /// example change for Part 5
     /// </summary>
     internal class HadaP1
     {
